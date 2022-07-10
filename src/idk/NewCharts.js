@@ -138,7 +138,7 @@ export default class NewCharts extends Component{
                 if(res.data != null){
                     this.setState({"myShow": true, "method":"put"});
                     setTimeout(() => this.setState({"myShow":false}), 2000);
-                    setTimeout(() => window.location.href = "http://localhost:3000/results", 2000);
+                    setTimeout(() => window.location.href = "https://chartsioapp.herokuapp.com/results", 2000);
                 }else{
                     this.setState({"myShow": false});
                 }
@@ -160,7 +160,7 @@ export default class NewCharts extends Component{
                 if(res.data != null){
                     this.setState({"show": true, "method":"put"});
                     setTimeout(() => this.setState({"show":false}), 2000);
-                    setTimeout(() => window.location.href = "http://localhost:3000/results", 2000);
+                    setTimeout(() => window.location.href = "https://chartsioapp.herokuapp.com/results", 2000);
                 }else{
                     this.setState({"show": false});
                 }

@@ -90,7 +90,7 @@ export default class NewIncomes extends Component{
                 if(res.data != null){
                     this.setState({"myShow": true, "method":"put"});
                     setTimeout(() => this.setState({"myShow":false}), 2000);
-                    setTimeout(() => window.location.href = "http://localhost:3000/incomes", 2000);
+                    setTimeout(() => window.location.href = "https://chartsioapp.herokuapp.com/incomes", 2000);
                 }else{
                     this.setState({"myShow": false});
                 }

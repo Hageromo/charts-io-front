@@ -89,7 +89,7 @@ export default class NewOutcomes extends Component{
                 if(res.data != null){
                     this.setState({"show": true, "method":"put"});
                     setTimeout(() => this.setState({"show":false}), 2000);
-                    setTimeout(() => window.location.href = "http://localhost:3000/outcomes", 2000);
+                    setTimeout(() => window.location.href = "https://chartsioapp.herokuapp.com/outcomes", 2000);
                 }else{
                     this.setState({"show": false});
                 }

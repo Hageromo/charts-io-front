@@ -41,7 +41,7 @@ class Register extends Component {
                         this.resetLogin();
                         this.setState({"error": "Password too short"})
                     }else{
-                        window.location.assign("http://localhost:3000/login");
+                        window.location.assign("https://chartsioapp.herokuapp.com/login");
                     }
                 }
             })

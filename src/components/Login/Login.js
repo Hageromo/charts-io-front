@@ -36,7 +36,7 @@ export class Login extends Component {
                     this.state.wasLogged = true
                     localStorage.setItem("state", this.state.wasLogged)
                     localStorage.setItem("login", this.state.email)
-                    window.location.assign("http://localhost:3000/");
+                    window.location.assign("https://chartsioapp.herokuapp.com/");
                 }
             })
             .catch(() => {

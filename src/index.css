@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,61 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.centerText {
+    text-align: center;
+}
+
+.textSize {
+    color: black;
+    font-size: 25px;
+}
+
+
+.centerCard {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topTable {
+    margin-top: auto;
+}
+
+.centerChart{
+    margin-left: 60px;
+}
+
+.active{
+    /*color:darkorange;*/
+    font-size: 110%;
+}
+
+.navbarDropdown{
+    /*color:darkorange;*/
+    font-size: 110%;
+}
+
+.activeLogo{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    font-size: 125%;
+    /*color: darkorange;*/
+}
+
+.chartJs2 {
+    height: 50% !important;
+    width: 50% !important;
+    background-color: #EEEEEE;
+}
+
+.centerMiddle {
+    float: right;
+}
+
+.borderColor {
+    border-color: orangered !important;
 }

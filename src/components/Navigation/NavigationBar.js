@@ -47,7 +47,7 @@ class NavigationBar extends Component{
                     <Link to={""} className="nav-link active">Home</Link>
                     <Link to={"custom"} className="nav-link active">Custom Chart</Link>
                     <Link to={"charts"} className="nav-link active" onClick={this.refresh}>List of Charts</Link>
-                    <NavDropdown active={true} menuVariant="dark" title={"Create new chart"} id="basic-nav-dropdown">
+                    <NavDropdown active={true} menuVariant="dark" title={"Add new value"} id="basic-nav-dropdown">
                         <NavDropdown.Item as={Link} to={"new/incomes"} style={{ fontSize: '95%' }}>Incomes</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to={"new/outcomes"} style={{ fontSize: '95%' }}>Expenses</NavDropdown.Item>
                     </NavDropdown>
@@ -71,7 +71,7 @@ class NavigationBar extends Component{
                     <Link to={""} className="nav-link">Home</Link>
                     <Link to={"contact"} className="nav-link">Demo</Link>
                     <Link to={"charts"} className="nav-link">List of charts</Link>
-                    <NavDropdown title="Create new chart" id="basic-nav-dropdown">
+                    <NavDropdown title="Add new value" id="basic-nav-dropdown">
                         <NavDropdown.Item as={Link} to={"new/incomes"} style={{ fontSize: '95%' }}>Incomes</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to={"new/outcomes"} style={{ fontSize: '95%' }}>Outcomes</NavDropdown.Item>
                         <NavDropdown.Divider />
